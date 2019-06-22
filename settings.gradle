@@ -1,1 +1,1 @@
-include ':app', ':navigation', ':feature_login', ':user_repository', ':user_network', ':feature_profile'
+include ':application', ':navigation', ':feature_login', ':user_repository', ':user_network', ':feature_profile'
