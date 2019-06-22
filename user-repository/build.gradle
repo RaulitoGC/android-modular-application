@@ -9,6 +9,10 @@ sourceSets {
 }
 
 dependencies {
+
+    implementation project(":user-network")
+
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
